@@ -1,7 +1,7 @@
 // leaderboard.js
 const leaderboardEl = document.getElementById('leaderboard');
 
-fetch('http://localhost:5000/api/leaderboard')
+fetch('https://intern-dashboard-backend-jz14.onrender.com/api/leaderboard')
   .then(response => response.json())
   .then(data => {
     data.forEach(entry => {

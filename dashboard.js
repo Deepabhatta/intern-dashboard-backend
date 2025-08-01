@@ -4,8 +4,8 @@ const referralCodeEl = document.getElementById('referralCode');
 const donationsEl = document.getElementById('donations');
 const rewardsList = document.getElementById('rewards');
 
-// ✅ Fetch dashboard data from backend
-fetch('http://localhost:5000/api/dashboard')
+// ✅ Fetch dashboard data from LIVE backend
+fetch('https://intern-dashboard-backend-jz14.onrender.com/api/dashboard')
   .then(response => response.json())
   .then(data => {
     nameEl.textContent = data.name;
