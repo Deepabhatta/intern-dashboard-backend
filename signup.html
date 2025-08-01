@@ -1,0 +1,26 @@
+<!-- signup.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Intern Signup</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Intern Signup</h1>
+    <form id="signupForm">
+      <input type="text" id="fullName" placeholder="Full Name" required />
+      <input type="email" id="email" placeholder="Email address" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <input type="password" id="confirmPassword" placeholder="Confirm Password" required />
+      <button type="submit">Create Account</button>
+      <p>Already have an account? <a href="index.html">Login here</a></p>
+    </form>
+  </div>
+
+  <div id="toast"></div>
+
+  <script type="module" src="signup.js"></script>
+</body>
+</html>
